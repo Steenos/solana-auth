@@ -210,6 +210,7 @@ If you encounter any issues, please join our Discord!
 ```js
 const withTM = require("next-transpile-modules")([
   "@crossmint/solana-auth-react-ui",
+  "@crossmint/solana-auth-base"
 ]);
 module.exports = withTM({
   reactStrictMode: true,
